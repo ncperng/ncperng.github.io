@@ -2,44 +2,22 @@ Create Nuxt Application
 =======================
 
 	```
-	$ npx create-nuxt-app client_nuxt
-	```
-
-Please choose:
-- Programming language **JavaScript**
-- Package manager **Npm**
-- UI framework **Bootstrap Vue**
-- Nuxt.js modules **Axois**
-- Linting tools **ESLint**
-- Testing framework **None**
-- Rendering mode **Universal (SSR / SSG)**
-- Deployment target **Static (Static/Jamstack hosting)**
-- Development tools **jsconfig.json**
-
-To know more about Server-Send Rendering (SSR) and Static Site Generation (SSG), please check https://unicorn-utterances.com/posts/what-is-ssr-and-ssg.
-
-	```
-	$ rm -rf client_nuxt/.git
+	$ npx nuxi init client_nuxt
 	$ git add client_nuxt
 
-	to get started:
-
 	$ cd client_nuxt
+	$ npm install
 	$ npm run dev
-
-	To build & start for production:
-
-	$ cd client_nuxt
-	$ npm run build
-	$ npm run start
 	```
+
+To know more about Server-Send Rendering (SSR) and Static Site Generation (SSG), please check https://unicorn-utterances.com/posts/what-is-ssr-and-ssg.
 
 Deploy to GitHub Static Hosting
 -------------------------------
 
 Please refer to https://nuxtjs.org/deployments/github-pages/
 
-We will use **push-dir** to create a branch named **gh-pages** with the generated /dist, and then publish to GitHub. You should also modify your project settings:
+We will use **push-dir** to create a branch named **gh-pages** with the generated .output/public, and then publish to GitHub. You should also modify your project settings:
 
 - Settings -> (Code and automation) Pages -> (Build and deployment) Branch
 - Choose **Deploy from a branch**
@@ -54,7 +32,7 @@ Then, we push the generated static page to branch **gh-pages** with push-dir.
 
 	"scripts": {
 		"generate": "nuxt generate",
-		"deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+		"deploy": "push-dir --dir=.output/public --branch=gh-pages --cleanup"
 	},
 
 

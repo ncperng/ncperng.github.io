@@ -36,6 +36,12 @@ Then, we push the generated static page to branch **gh-pages** with push-dir.
 		"deploy": "push-dir --dir=.output/public --branch=gh-pages --cleanup"
 	},
 
+	$ vi nuxt.config.tx
+
+	export default defineNuxtConfig({
+		ssr: false,
+	});
+
 
 	$ npm run generate
 	$ npm run deploy

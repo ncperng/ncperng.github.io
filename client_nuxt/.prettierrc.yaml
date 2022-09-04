@@ -1,0 +1,17 @@
+# Cloudeep Official .prettierrc.yaml
+printWidth: 120
+overrides:
+  - files: "*.js"
+    options:
+      editor.formatOnSave: true
+      singleQuote: true
+      semi: true
+      printWidth: 120
+      trailingComma: es5
+      arrowParens: avoid
+      useTabs: true
+      tabWidth: 4
+  - files: "*.json"
+    options:
+      useTabs: true
+      tabWidth: 4

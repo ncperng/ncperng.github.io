@@ -19,6 +19,9 @@ Please choose:
 To know more about Server-Send Rendering (SSR) and Static Site Generation (SSG), please check https://unicorn-utterances.com/posts/what-is-ssr-and-ssg.
 
 	```
+	$ rm -rf client_nuxt/.git
+	$ git add client_nuxt
+
 	to get started:
 
 	$ cd client_nuxt

@@ -4,6 +4,7 @@ Create Nuxt Application
 	```
 	$ npx nuxi init client_nuxt
 	$ git add client_nuxt
+	$ git push origin master
 
 	$ cd client_nuxt
 	$ npm install

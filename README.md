@@ -36,6 +36,8 @@ Deploy to GitHub Static Hosting
 
 	Please refer to https://nuxtjs.org/deployments/github-pages/
 
+	First, please create a branch **gh-pages** on GitHub.
+
 	```
 	$ npm install push-dir
 	$ vi package.json
@@ -46,6 +48,6 @@ Deploy to GitHub Static Hosting
 	},
 
 
-	$ npm generate
-	$ npm deploy
+	$ npm run generate
+	$ npm run deploy
 	```

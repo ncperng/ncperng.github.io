@@ -37,9 +37,16 @@ To know more about Server-Send Rendering (SSR) and Static Site Generation (SSG),
 Deploy to GitHub Static Hosting
 -------------------------------
 
-	Please refer to https://nuxtjs.org/deployments/github-pages/
+Please refer to https://nuxtjs.org/deployments/github-pages/
 
-	First, please create a branch **gh-pages** on GitHub.
+We will use **push-dir** to create a branch named **gh-pages** with the generated /dist, and then publish to GitHub. You should also modify your project settings:
+
+- Settings -> (Code and automation) Pages -> (Build and deployment) Branch
+- Choose **Deploy from a branch**
+- Choose **gh-pages**
+- **Save**
+
+Then, we push the generated static page to branch **gh-pages** with push-dir.
 
 	```
 	$ npm install push-dir
@@ -54,3 +61,5 @@ Deploy to GitHub Static Hosting
 	$ npm run generate
 	$ npm run deploy
 	```
+
+Please also reference "Configuring a publishing source for your GitHub Pages site" https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site

@@ -1,5 +1,7 @@
 # Cloudeep Official .prettierrc.yaml
-printWidth: 120
+printWidth: 180
+useTabs: true
+tabWidth: 4
 overrides:
   - files: "*.js"
     options:
@@ -9,9 +11,3 @@ overrides:
       printWidth: 120
       trailingComma: es5
       arrowParens: avoid
-      useTabs: true
-      tabWidth: 4
-  - files: "*.json"
-    options:
-      useTabs: true
-      tabWidth: 4

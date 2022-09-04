@@ -25,6 +25,21 @@ We will use **push-dir** to create a branch named **gh-pages** with the generate
 - Choose **gh-pages**
 - **Save**
 
+For GitHub static hosting, Nuxt3 has things to be modify, since it does not support static yet.
+
+	```
+	$ vi nuxt.config.tx
+
+	export default defineNuxtConfig({
+		ssr: false,
+	});
+
+
+	$ mkdir public
+	$ touch public/.nojekyll
+	```
+
+
 Then, we push the generated static page to branch **gh-pages** with push-dir.
 
 	```
@@ -35,13 +50,6 @@ Then, we push the generated static page to branch **gh-pages** with push-dir.
 		"generate": "nuxt generate",
 		"deploy": "push-dir --dir=.output/public --branch=gh-pages --cleanup"
 	},
-
-	$ vi nuxt.config.tx
-
-	export default defineNuxtConfig({
-		ssr: false,
-	});
-
 
 	$ npm run generate
 	$ npm run deploy

@@ -16,7 +16,7 @@
 		"stylus-loader": "^6.2.0"
 	},
 	"dependencies": {
-		"push-dir": "^0.4.1",
-		"@nuxtjs/dayjs": "^1.4.1"
+		"@nuxtjs/dayjs": "^1.4.1",
+		"push-dir": "^0.4.1"
 	}
 }

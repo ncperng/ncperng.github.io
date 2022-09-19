@@ -9,7 +9,7 @@
 		"deploy": "push-dir --dir=.output/public --branch=gh-pages --cleanup"
 	},
 	"devDependencies": {
-		"nuxt": "^3.0.0-rc.9",
+		"nuxt": "^3.0.0-rc.10",
 		"pug": "^3.0.2",
 		"pug-plain-loader": "^1.1.0",
 		"stylus": "^0.57.0",

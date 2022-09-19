@@ -43,49 +43,38 @@ body
 
 #container
 	width: 642px
-	background: #fff url(images/container_tile.jpg) repeat-y
 	margin: 0px auto
+	background: #fff url(images/container_tile.jpg) repeat-y
 
 #page_header
-	background-image: url(images/header.jpg)
 	height: 510px
 	background-repeat: no-repeat
+	background-image: url(images/header.jpg)
 
 h2
 	display: block
-    font-size: 1.5em
-    margin-block-start: 0.83em
-    margin-block-end: 0.83em
-    margin-inline-start: 0px
-    margin-inline-end: 0px
-    font-weight: bold
+	margin-block-start: 0.83em
+	margin-block-end: 0.83em
+	margin-inline-start: 0px
+	margin-inline-end: 0px
+	font-weight: bold
+	font-size: 1.5em
 
 h3
-    display: block
-    font-size: 1.17em
-    margin-block-start: 1em
-    margin-block-end: 1em
-    margin-inline-start: 0px
-    margin-inline-end: 0px
-    font-weight: bold
-
-ul
 	display: block
-	list-style-type: disc
 	margin-block-start: 1em
 	margin-block-end: 1em
 	margin-inline-start: 0px
 	margin-inline-end: 0px
-	padding-inline-start: 40px
-	li
-		line-height: 2.8ex
-		list-style-type: none
-		background: transparent
-		display: block
-		padding-top: 2px
-		margin-bottom: 2px
-		a:link
-			color #eee
+	font-weight: bold
+	font-size: 1.17em
+
+a
+	font-weight: bold
+	text-decoration: none
+	color: #48482d
+	&:hover
+		color: #fff
 
 #menu
 	position: absolute
@@ -105,6 +94,17 @@ ul
 	ul
 		margin: 0
 		padding: 0
+		li
+			display: block
+			margin-bottom: 5px
+			padding-top: 2px
+			line-height: 2.8ex
+			list-style-type: none
+			background: transparent
+			a
+				color #eee
+				&:hover
+					color: #48482d
 
 #text_area
 	padding: 0 55px 10px 75px
@@ -114,4 +114,6 @@ ul
 	em
 		color: #fff
 		font-style: normal
+	ul, ol
+		padding-left: 15px
 </style>

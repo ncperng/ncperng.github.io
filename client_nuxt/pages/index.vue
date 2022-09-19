@@ -1,13 +1,13 @@
 <template lang="pug">
 h2
-	img(src="images/heading_NeiChiungPerng.gif")
+	img(src="/images/heading_NeiChiungPerng.gif")
 p Nei-Chiung Perng (also known as Neil) just left his 5-year-long job and becomes a freelancer of Information Technology now.
 p He received his Ph.D. degree in Computer Science and Information Engineering from National Taiwan University, Taipei, Taiwan, in 2006. During the five-year Ph.D. life, he was a member of the <a href="http://newslab.csie.ntu.edu.tw/">Embedded Systems and Wireless Networking Laboratory</a> supervised by Professor <a href="http://www.csie.ntu.edu.tw/~ktw">Tei-Wei Kuo</a>. He also holds a Bachelor degree and a Master degree in Computer and Information Science from National Chao Tung University in 1999 and 2001, respectively. He was supervised by Professor <a href="http://dcsw3.cis.nctu.edu.tw/DCSLab/AboutUs.aspx?QueryType=Professor">Shyan-Ming Yuan</a> in <a href="http://dcsw3.cis.nctu.edu.tw/DCSLab/">Distributed Computing System Laboratory</a> during 1998 to 2001. His research interests include real-time and embedded systems, distributed computing, and scheduling algorithms.
 p He could be contacted through emails: neil (AT) cis.nctu.edu.tw or ncperng (AT) gmail.com.
 br
 
 h2
-	img(src="images/heading_Honors.gif")
+	img(src="/images/heading_Honors.gif")
 ul
 	li Delegate of YEF Competition 2005 to MIT and Silicon Valley (Sep 2005)
 	li Champion of Trend Natural Born Programmer Context 2004 (Aug 2004)
@@ -24,7 +24,7 @@ ul
 
 a(name="publication")
 h2
-	img(src="images/heading_PublicationList.gif")
+	img(src="/images/heading_PublicationList.gif")
 h3 Journals
 ol
 	li

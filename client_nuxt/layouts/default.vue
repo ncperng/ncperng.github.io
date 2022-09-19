@@ -36,7 +36,7 @@ useHead({
 <style lang="stylus">
 body
 	font: 8pt/16pt Georgia, Noto Sans TC, "Times New Roman", Times, serif
-	background: url(images/body_bg.jpg) center center repeat-y rgb(0, 0, 0)
+	background: url(/images/body_bg.jpg) center center repeat-y rgb(0, 0, 0)
 	a:link
 		font-weight: bold
 		text-decoration: none
@@ -44,12 +44,12 @@ body
 #container
 	width: 642px
 	margin: 0px auto
-	background: #fff url(images/container_tile.jpg) repeat-y
+	background: #fff url(/images/container_tile.jpg) repeat-y
 
 #page_header
 	height: 510px
 	background-repeat: no-repeat
-	background-image: url(images/header.jpg)
+	background-image: url(/images/header.jpg)
 
 h2
 	display: block
@@ -87,7 +87,7 @@ a
 		padding: 0 30px 10px 10px
 		border: 0px solid gray
 		font: 10px verdana, Noto Sans TC, sans-serif
-		background-image: url(images/linklist_bg.jpg)
+		background-image: url(/images/linklist_bg.jpg)
 		background-repeat: repeat-y
 		background-position: right
 		background-color: #abab8e

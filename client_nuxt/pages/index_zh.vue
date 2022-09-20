@@ -1,7 +1,7 @@
 <template lang="pug">
 #index_zh
 	h2
-		img(src="images/heading_Homepage.gif")
+		img(src="/images/heading_Homepage.gif")
 	
 	h3 自我介紹	
 	table(border="0", width="529")

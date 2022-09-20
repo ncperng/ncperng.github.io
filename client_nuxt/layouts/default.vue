@@ -23,11 +23,11 @@ useHead({
 			img(src="/images/menu.gif")
 			ul
 				li
-					a(href="/index") Homepage
+					a(href="/") Homepage
 				li
-					a(href="/index#publication") Publication List
+					a(href="/#publication") Publication List
 				li
-					a(href="/index") 中文主頁
+					a(href="/index_zh") 中文主頁
 				li
 					a(href="/map") 旅遊地圖
 
@@ -116,4 +116,11 @@ a
 		font-style: normal
 	ul, ol
 		padding-left: 15px
+	p:first-letter
+		font-size: 14pt
+
+#update
+	padding-top: 50px
+	text-align: right
+	color: #7A7A5E
 </style>

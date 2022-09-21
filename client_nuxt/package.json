@@ -17,6 +17,8 @@
 	},
 	"dependencies": {
 		"@nuxtjs/dayjs": "^1.4.1",
-		"push-dir": "^0.4.1"
+		"d3": "^7.6.1",
+		"push-dir": "^0.4.1",
+		"topojson-client": "^3.1.0"
 	}
 }

@@ -35,6 +35,7 @@ useHead({
 
 <style lang="stylus">
 body
+	margin: 0
 	font: 8pt/16pt Georgia, Noto Sans TC, "Times New Roman", Times, serif
 	background: url(/images/body_bg.jpg) center center repeat-y rgb(0, 0, 0)
 	a:link

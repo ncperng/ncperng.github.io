@@ -82,7 +82,7 @@ a
 	#menu_position
 		position: relative
 		left: -115px
-		width: 178px
+		width: 138px
 		margin-top: 10px
 		padding: 0 30px 10px 10px
 		border: 0px solid gray

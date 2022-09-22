@@ -3,11 +3,15 @@ const route = useRoute();
 
 const WEBSITE_TITLE = inject("WEBSITE_TITLE");
 const WEBSITE_DESC = inject("WEBSITE_DESC");
+const FAVICON = inject("FAVICON");
 
 useHead({
 	title: route.meta.title || WEBSITE_TITLE,
 	meta: [{ name: "description", content: route.meta.desc || WEBSITE_DESC }],
-	link: [{ rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Noto Sans TC" }],
+	link: [
+		{ rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Noto Sans TC" },
+		{ rel: "icon", type: "/image/x-icon", href: FAVICON },
+	],
 });
 </script>
 
@@ -83,7 +87,7 @@ a
 	#menu_position
 		position: relative
 		left: -115px
-		width: 138px
+		width: 178px
 		margin-top: 10px
 		padding: 0 30px 10px 10px
 		border: 0px solid gray
